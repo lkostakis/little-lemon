@@ -13,20 +13,17 @@ struct MenuGrid: View {
     @State var showMenuItemDetails = false
     var menu: [MenuItem]
 
-
     var body: some View {
 
         LazyVGrid(columns: gridLayout, alignment: .leading, spacing: 40) {
             ForEach(menu) { item in
                 NavigationLink(destination: MenuItemsDetailsView(menuItem: item)) {
                     MenuIcon(title: item.title)
-                        .foregroundColor(.black)
                 }
             }
         }
         .padding()
     }
-
 }
 
 struct MenuGrid_Previews: PreviewProvider {

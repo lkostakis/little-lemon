@@ -16,11 +16,12 @@ struct MenuIcon: View {
         VStack {
             Rectangle()
                 .frame(width: 110, height: 100)
+                .foregroundColor(.black)
             Text(title)
                 .padding(3)
+                .foregroundColor(.black)
                 .font(.subheadline)
         }
-
     }
 }
 

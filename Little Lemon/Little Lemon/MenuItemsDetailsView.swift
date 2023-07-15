@@ -51,7 +51,7 @@ struct MenuItemsDetailsView: View {
                         Text(ingredient.rawValue)
                     }
                 }
-            }
+            }.navigationBarTitleDisplayMode(.inline)
 
         }
     }
