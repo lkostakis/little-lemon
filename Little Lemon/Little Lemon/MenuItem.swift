@@ -24,12 +24,6 @@ struct MenuItem: Identifiable, MenuItemProtocol {
     var menuCategory: MenuCategory = .food
     var ordersCount: Int = 0
     var ingredients: [Ingredient] = []
-
-//    init(title: String, price: Double, menuCategory: MenuCategory) {
-//        self.title = title
-//        self.price = price
-//        self.menuCategory = menuCategory
-//    }
 }
 
 extension MenuItem {

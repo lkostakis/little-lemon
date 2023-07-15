@@ -38,6 +38,7 @@ struct MenuItemsOptionView: View {
                     .fontWeight(.bold)
                 }
             }
+            
         }
     }
 }

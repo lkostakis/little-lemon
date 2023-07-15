@@ -19,6 +19,7 @@
 		FCC8AE3C2A62DE1D000E3F1F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8AE3B2A62DE1D000E3F1F /* MenuItem.swift */; };
 		FCC8AE3E2A62E273000E3F1F /* MenuViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8AE3D2A62E273000E3F1F /* MenuViewViewModel.swift */; };
 		FCC8AE402A62FB90000E3F1F /* MenuGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8AE3F2A62FB90000E3F1F /* MenuGrid.swift */; };
+		FCC8AE422A6300F2000E3F1F /* MenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8AE412A6300F2000E3F1F /* MenuIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FCC8AE3B2A62DE1D000E3F1F /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		FCC8AE3D2A62E273000E3F1F /* MenuViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewViewModel.swift; sourceTree = "<group>"; };
 		FCC8AE3F2A62FB90000E3F1F /* MenuGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGrid.swift; sourceTree = "<group>"; };
+		FCC8AE412A6300F2000E3F1F /* MenuIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				FCC8AE3D2A62E273000E3F1F /* MenuViewViewModel.swift */,
 				FCC8AE2F2A62BA13000E3F1F /* MenuItemsView.swift */,
 				FCC8AE3F2A62FB90000E3F1F /* MenuGrid.swift */,
+				FCC8AE412A6300F2000E3F1F /* MenuIcon.swift */,
 				FCC8AE312A62BA23000E3F1F /* MenuItemsOptionView.swift */,
 				FCC8AE332A62BA36000E3F1F /* MenuItemsDetailsView.swift */,
 				FCC8AE372A62DD75000E3F1F /* MenuCategory.swift */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC8AE242A62B878000E3F1F /* ContentView.swift in Sources */,
+				FCC8AE422A6300F2000E3F1F /* MenuIcon.swift in Sources */,
 				FCC8AE302A62BA13000E3F1F /* MenuItemsView.swift in Sources */,
 				FCC8AE3A2A62DDA6000E3F1F /* Ingredient.swift in Sources */,
 				FCC8AE382A62DD75000E3F1F /* MenuCategory.swift in Sources */,

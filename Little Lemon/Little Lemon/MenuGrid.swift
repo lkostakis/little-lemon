@@ -16,10 +16,10 @@ struct MenuGrid: View {
 
         LazyVGrid(columns: gridLayout, alignment: .leading, spacing: 40) {
 
-            ForEach(0..<menu.count) { _ in
-                Rectangle()
-                    .frame(width: 110, height: 100)
+            ForEach(0..<menu.count) { index in
+                MenuIcon(title: menu[index].title)
             }
+
         }
         .padding()
     }
