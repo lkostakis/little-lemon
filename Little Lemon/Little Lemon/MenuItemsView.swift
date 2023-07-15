@@ -14,7 +14,6 @@ struct MenuItemsView: View {
     @State var gridLayout = [GridItem(), GridItem(), GridItem()]
 
     var body: some View {
-        NavigationView {
 
             VStack {
                 ScrollView {
@@ -52,7 +51,7 @@ struct MenuItemsView: View {
                 }
             }
 
-        }
+
     }
 }
 

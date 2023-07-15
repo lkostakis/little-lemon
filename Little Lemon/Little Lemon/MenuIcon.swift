@@ -20,7 +20,7 @@ struct MenuIcon: View {
                 .padding(3)
                 .font(.subheadline)
         }
-        
+
     }
 }
 

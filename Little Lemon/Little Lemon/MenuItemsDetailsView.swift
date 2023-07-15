@@ -12,7 +12,7 @@ struct MenuItemsDetailsView: View {
     let menuItem: MenuItem
 
     var body: some View {
-
+        
         ScrollView {
 
             VStack {
@@ -52,8 +52,8 @@ struct MenuItemsDetailsView: View {
                     }
                 }
             }
-        }
 
+        }
     }
 }
 
